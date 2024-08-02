@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Stock__c.Custom_Compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>Stock_Exchange__c.Countrry__c</members>
+        <members>Stock_Exchange__c.Currency_Name__c</members>
+        <members>Stock__c.Company_c__c</members>
+        <members>Stock__c.CurrencyIsoCode__c</members>
+        <members>Stock__c.Quantity_c__c</members>
+        <members>Stock__c.Value_c__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Portfolio__c</members>
+        <members>Stock_Exchange__c</members>
+        <members>Stock__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Portfolio__c.All</members>
+        <members>Stock__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>61.0</version>
+</Package>
