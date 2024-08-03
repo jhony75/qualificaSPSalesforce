@@ -4,3 +4,5 @@ brew install openjdk
 brew install node
 brew install --cask visual-studio-code
 brew update
+
+code --install-extension salesforce.salesforcedx-vscode

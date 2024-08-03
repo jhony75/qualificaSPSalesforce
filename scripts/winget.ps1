@@ -4,3 +4,5 @@ winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Git.Git
 
 Set-ExecutionPolicy RemoteSigned
+
+code --install-extension salesforce.salesforcedx-vscode
