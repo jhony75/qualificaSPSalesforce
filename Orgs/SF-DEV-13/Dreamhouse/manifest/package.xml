@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+   <types>
+        <members>HouseService</members>
+        <members>HouseRepository</members>
+        <members>AbstractRepository</members>
+        <name>ApexClass</name>
+    </types> 
+    <types>
+        <members>House__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>House__c.Address__c</members>
+        <members>House__c.Bathrooms__c</members>
+        <members>House__c.Bedroom__c</members>
+        <members>House__c.City__c</members>
+        <members>House__c.Picture__c</members>
+        <members>House__c.Price__c</members>
+        <members>House__c.State__c</members>
+        <members>House__c.Zip__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>House__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>House__c-House Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>House__c.Custom_Compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>House__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>housingMap</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <version>61.0</version>
+</Package>
