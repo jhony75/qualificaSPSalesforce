@@ -25,11 +25,10 @@ export const fazSmoothie = async () => {
 };
 
 export const fazSmoothieConcorrente = async () => {
+
   const a = await getFruit('abacaxi');
   const b = await getFruit('morango');
-  const smoothie = Promise.all([a, b]);
-
-  return smoothie
+  return Promise.all([a, b]);
 };
 
 const fazSmoothiePromise = () => {
