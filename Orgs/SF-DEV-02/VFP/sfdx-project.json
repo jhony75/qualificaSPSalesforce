@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "defesafioTecnico",
+  "name": "VFP",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "61.0"
